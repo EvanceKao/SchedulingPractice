@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchedulingPractice.Core", "SchedulingPractice.Core\SchedulingPractice.Core.csproj", "{4E411DD0-16E8-4BD9-BA79-D22D1F4FE9B1}"
 EndProject
@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		demo-all.cmd = demo-all.cmd
 		demo.cmd = demo.cmd
 		README.md = README.md
+		SQLQuery1.sql = SQLQuery1.sql
 		statistics.sql = statistics.sql
 	EndProjectSection
 EndProject
@@ -36,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubWorker.AndyDemo", "SubWo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchedulingPractice.SubWorkerRunner", "SchedulingPractice.SubWorkerRunner\SchedulingPractice.SubWorkerRunner.csproj", "{5D349423-56A0-4E03-A59F-7D1AF95B78E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubWorker.EvanceDemo", "SubWorker.EvanceDemo\SubWorker.EvanceDemo.csproj", "{3CA424CF-C75B-4EAD-BF22-7EBDF3F87329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubWorker.EvanceDemo", "SubWorker.EvanceDemo\SubWorker.EvanceDemo.csproj", "{3CA424CF-C75B-4EAD-BF22-7EBDF3F87329}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,7 +10,7 @@ namespace SubWorker.EvanceDemo
             var host = new HostBuilder()
                 .ConfigureServices((context, services) =>
                 {
-                    services.AddHostedService<EvanceSubWorkerBackgroundService>();
+                    services.AddHostedService<V3.EvanceSubWorkerBackgroundService>();
                 })
                 .Build();
             using (host)
